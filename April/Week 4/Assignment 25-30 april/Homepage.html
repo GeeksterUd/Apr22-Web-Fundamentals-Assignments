@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+            }
+            #d1{
+                 padding: 2px;
+                background-color: black;
+                display: flex;
+                color: cornsilk;
+                justify-content: space-between;
+            }
+            h2{
+                margin-left: 100px;
+            }
+         
+            a{
+                color: cornsilk;
+                text-decoration: none;
+            }
+            #d2{
+                display: flex;
+                align-items: center;
+                width: 40%;
+                justify-content: space-evenly;
+
+            }
+            .section{
+                background-image: url("data:image/jpeg;base64,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");
+                height: 600px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #subsection{ 
+                background-color: rgba(0, 0, 0, 0.3);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            p{
+                padding: 0px 40px;
+            }
+            #b1{
+                background-color: royalblue;
+                color: whitesmoke;
+                padding: 8px 15px;
+                border-radius: 20px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="d1">
+            <h2>GEEKSTER WORLD</h2>
+        <div id="d2">
+            <a href="#">Home</a>
+            <a href="#">Portfolia</a>
+            <a href="#">About us</a>
+            <a href="#">Landing page</a>
+        </div>
+        </div>
+        <div class="section">
+            <div id="subsection">
+            <h1>Welcome to css world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum animi iusto placeat ad, possimus, dicta et numquam blanditiis suscipit perferendis adipisci, eius quaerat. Similique corrupti sit ratione saepe illum aliquam suscipit voluptatibus harum alias nobis rerum excepturi dolorem praesentium modi tempore fuga error nesciunt accusantium, velit veniam eligendi, debitis totam! Quae magnam sunt id, sed animi error dolor eveniet autem inventore corrupti iusto harum in, eligendi deleniti libero cupiditate.</p>
+            <input id="b1" type="button" value="Explore more!!"/>
+            </div>
+        </div>
+    </body>
+
+</html>

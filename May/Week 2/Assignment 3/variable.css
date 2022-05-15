@@ -1,0 +1,8 @@
+:root{
+    --textcolor: rgb(39, 38, 38);
+    --backcolor:  rgb(186, 240, 186);
+    --normalfont:400;
+    --boldfont:600;
+    --bolder:800;
+    --whitecolor: rgb(255, 255, 255);
+}
